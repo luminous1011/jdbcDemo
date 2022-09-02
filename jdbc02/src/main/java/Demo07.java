@@ -19,7 +19,7 @@ public class Demo07 {
         System.err.println(dbData.getUserName());
         ResultSetMetaData dd = statement.getMetaData();
         System.err.println(dd.getColumnCount());
- 
+
         statement.close();
         conn.close();
 
